@@ -1,0 +1,29 @@
+:root{
+    --bg-color: #000;
+    --second-bg-color:#222222;
+    --main-color:#FB3640;
+    --text-color:#F5F5F5;
+}
+body {
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+h1{
+    text-align: center;
+    margin-top: 100px;
+    color: var(--main-color);
+    font-size: 3rem;
+    font-weight: 800;
+}
+.text{
+    background-color: var(--second-bg-color);
+    border-radius: 15px;
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: var(--text-color);
+    font-size: 1.5rem;
+}
