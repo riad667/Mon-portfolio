@@ -15,9 +15,9 @@
       <a href="#" id="logo">PORT<span>FOLIO</span> </a>
       <nav class="navbar">
         <a href="#accueil">Accueil</a>
-        <a href="#apropos">A propos</a>
-        <a href="#compétences">Compétences</a>
-        <a href="#projets">Projets</a>
+        <a href="#apropos">À propos</a>
+        <a href="#competences">Compétences</a>
+        <a href="#projet">Projets</a>
         <a href="#contact">Contact</a>
         <span></span>
       </nav>
@@ -62,26 +62,125 @@
         </div>
       </div>
     </section>
-    <section id="compétences" class="competences">
-    <div class="competences-info">
-      <div class="competences-contenu">
-        <h1>COMPETENCES</h1>
-        <p>
-          Je suis un développeur web compétent dans les langages HTML, CSS,
-          JavaScript, ainsi que dans les frameworks tels que React et Vue.js.
-          J'ai également une solide expérience en développement backend avec
-          Node.js et Express. Ma passion pour la programmation me pousse à
-          constamment apprendre de nouvelles technologies et à relever des défis
-          techniques pour créer des applications web performantes et innovantes.
-        </p>
-        <br />
-        <br />
-        <button class="btn"><a href="./competences.html">voir plus</a></button>
+    <section id="competences">
+      <div class="competence-content">
+        <h2>Mes compétences</h2>
+
+        <p>HTML</p>
+        <div class="progress-container">
+          <div class="progress-bar html">80%</div>
+        </div>
+
+        <p>CSS</p>
+        <div class="progress-container">
+          <div class="progress-bar css">50%</div>
+          <p></p>
+        </div>
+
+        <p>Python</p>
+        <div class="progress-container">
+          <div class="progress-bar python">25%</div>
+        </div>
       </div>
-    </div>
-    <section id="apropos"></section>
-    <section id="compétences"></section>
-    <section id="contact"></section>
+    </section>
+    <section class="project" id="projet">
+      <h2 class="heading">Mes Projets</h2>
+      <div class="project-box">
+        <div class="project-card">
+          <img src="./lordbless.png" alt="Projet 1" />
+          <h3>Site web de présentation de groupe</h3>
+          <p>
+            Ce projet a été réalisé en goupe dans le cadre d'un travail
+            éducatif.
+            <br />
+            Divers langages de programmation on servit à la realisation de ce
+            projets;tels que HTML, CSS et JAVASCRIPT pour créer une interface
+            claire et organisée.
+            <br />
+            Ce projet m'a permis d'apprendre à travailler en équipe et à mieux
+            structurer un site web.
+          </p>
+          <div class="btn">
+            <a href="https://laatr34.github.io/LordBless/" target="_blank"
+              >Voir le projet</a
+            >
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="./cv.png" alt="Projet 2" />
+          <h3>CV en HTML & CSS</h3>
+          <p>
+            La conception de ce CV numérique a été fait par l'utilisant de HTML
+            et CSS afin de présenter mes parcours académique, compétences et mes
+            projets.
+            <br />
+            HTML a servit a structurer ce projet et CSS pour le design, la mise
+            en page et l'amélioration visuelle du document.
+            <br />
+            Ce projet m'a permi de renforcer mes compétences de design web et en
+            organisation du contenu.
+          </p>
+          <div class="btn">
+            <a href="riad-cv.html" target="_blank">Voir le projet</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>CONTACT</h2>
+      <form action="#" method="post">
+        <label for="name">Nom :</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Votre nom"
+          required
+        />
+
+        <label for="email">Email :</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Votre email"
+          required
+        />
+
+        <label for="message">Message :</label>
+        <textarea
+          id="message"
+          name="message"
+          rows="5"
+          placeholder="Votre message..."
+          required
+        ></textarea>
+
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+    <footer class="footer">
+      <div class="social-icons">
+        <a href="mailto:betsaroanariad@gmail.com"
+          ><i class="fa-solid fa-envelope"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/riadzoldick667?mibextid=rS40aB7S9Ucbxw6v"
+          ><i class="fab fa-facebook"></i
+        ></a>
+        <a href="https://github.com/riad667"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/riad_snowman"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </div>
+      <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="#projet">Projets</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </footer>
   </body>
 </html>
-
